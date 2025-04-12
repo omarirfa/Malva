@@ -1,0 +1,13 @@
+cachebox>=4.2.0
+fastapi>=0.104.0
+faster-whisper>=0.10.0
+httpx>=0.25.0
+kokoro>=0.9.2
+numpy>=1.24.0
+orjson>=3.9.0
+Pillow>=10.0.0
+pre-commit
+python-multipart>=0.0.6
+soundfile>=0.12.1
+uvicorn>=0.23.2
+websockets>=11.0.3

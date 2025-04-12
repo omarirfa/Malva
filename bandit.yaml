@@ -1,0 +1,83 @@
+# https://bandit.readthedocs.io/en/latest/config.html
+
+exclude_dirs: ['tests', 'venv', '.venv', 'env', '.git']
+
+tests:
+  # Code execution/injection risks
+  - B102  # exec/eval usage
+  - B103  # Set bad file permissions
+  # - B104  # Binding to all interfaces
+  - B105  # Hardcoded password string
+  - B106  # Hardcoded password string
+  - B107  # Hardcoded password function args
+  - B108  # Insecure temp file/directory
+  # - B110  # try-except-pass (catches all exceptions)
+  - B112  # Try-except continuing on TypeError
+
+  # Command injection risks
+  - B301  # Pickle usage
+  - B302  # Marshal usage
+  - B304  # Crypt usage
+  - B305  # Cipher algorithms
+  - B306  # mktemp usage
+  - B307  # eval usage
+  - B601  # paramiko calls
+  - B602  # subprocess shell=True
+  - B603  # subprocess untrusted input
+  - B604  # Any function with shell=True
+  - B605  # start process with shell
+  - B606  # start process with no shell
+  - B607  # start process with partial path
+
+  # Data handling/injection
+  - B609  # Flask cookie without security flags
+  - B610  # Django XSS
+  - B611  # Blacklisted import of telnetlib
+
+  # Crypto issues
+  - B501  # Request with no cert verification
+  - B502  # SSL with bad version
+  - B503  # SSL with bad defaults
+  - B504  # SSL with no version
+  - B505  # weak crypto
+  - B506  # yaml.load
+  - B507  # weak crypto keys
+
+  # Template engines (critical for Flask)
+  # - B701  # jinja2 autoescape disabled
+  # - B702  # use of mako templates
+  # - B703  # Django potential XSS
+
+  # Only enable XML checks if you're parsing XML
+  # - B313  # XML_ElementTree
+  # - B314  # xml_sax
+  # - B315  # xml_expat
+  # - B316  # xml_minidom
+  # - B317  # xml_pulldom
+  # - B318  # xml_sax
+  # - B319  # xml_sax_expatreader
+  # - B320  # lxml.etree
+  # - B324  # hashlib insecure hashing
+  # - B608 # uncomment if getting sql query from user, this handles hardcoded sql queries
+
+# Severity levels
+any_other_function_with_shell_equals_true: medium
+assert_used: low
+hardcoded_bind_all_interfaces: medium
+hardcoded_password_default: low
+hardcoded_password_funcarg: medium
+hardcoded_password_string: medium
+hardcoded_sql_expressions: medium
+hardcoded_tmp_directory: medium
+jinja2_autoescape_false: medium
+linux_commands_wildcard_injection: medium
+paramiko_calls: medium
+password_config_option_not_marked_secret: medium
+request_with_no_cert_validation: medium
+set_bad_file_permissions: medium
+subprocess_popen_with_shell_equals_true: medium
+subprocess_without_shell_equals_true: medium
+try_except_pass:
+  level: low
+
+weak_cryptographic_key: medium

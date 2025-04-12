@@ -1,0 +1,121 @@
+{
+    "languages": [
+      {
+        "code": "a",
+        "name": "American English",
+        "flag": "🇺🇸",
+        "voices": [
+          {"id": "af_heart", "name": "Heart", "gender": "female", "grade": "A", "traits": "❤️"},
+          {"id": "af_alloy", "name": "Alloy", "gender": "female", "grade": "C", "traits": ""},
+          {"id": "af_aoede", "name": "Aoede", "gender": "female", "grade": "C+", "traits": ""},
+          {"id": "af_bella", "name": "Bella", "gender": "female", "grade": "A-", "traits": "🔥"},
+          {"id": "af_jessica", "name": "Jessica", "gender": "female", "grade": "D", "traits": ""},
+          {"id": "af_kore", "name": "Kore", "gender": "female", "grade": "C+", "traits": ""},
+          {"id": "af_nicole", "name": "Nicole", "gender": "female", "grade": "B-", "traits": "🎧"},
+          {"id": "af_nova", "name": "Nova", "gender": "female", "grade": "C", "traits": ""},
+          {"id": "af_river", "name": "River", "gender": "female", "grade": "D", "traits": ""},
+          {"id": "af_sarah", "name": "Sarah", "gender": "female", "grade": "C+", "traits": ""},
+          {"id": "af_sky", "name": "Sky", "gender": "female", "grade": "C-", "traits": ""},
+          {"id": "am_adam", "name": "Adam", "gender": "male", "grade": "F+", "traits": ""},
+          {"id": "am_echo", "name": "Echo", "gender": "male", "grade": "D", "traits": ""},
+          {"id": "am_eric", "name": "Eric", "gender": "male", "grade": "D", "traits": ""},
+          {"id": "am_fenrir", "name": "Fenrir", "gender": "male", "grade": "C+", "traits": ""},
+          {"id": "am_liam", "name": "Liam", "gender": "male", "grade": "D", "traits": ""},
+          {"id": "am_michael", "name": "Michael", "gender": "male", "grade": "C+", "traits": ""},
+          {"id": "am_onyx", "name": "Onyx", "gender": "male", "grade": "D", "traits": ""},
+          {"id": "am_puck", "name": "Puck", "gender": "male", "grade": "C+", "traits": ""},
+          {"id": "am_santa", "name": "Santa", "gender": "male", "grade": "D-", "traits": ""}
+        ]
+      },
+      {
+        "code": "b",
+        "name": "British English",
+        "flag": "🇬🇧",
+        "voices": [
+          {"id": "bf_alice", "name": "Alice", "gender": "female", "grade": "D", "traits": ""},
+          {"id": "bf_emma", "name": "Emma", "gender": "female", "grade": "B-", "traits": ""},
+          {"id": "bf_isabella", "name": "Isabella", "gender": "female", "grade": "C", "traits": ""},
+          {"id": "bf_lily", "name": "Lily", "gender": "female", "grade": "D", "traits": ""},
+          {"id": "bm_daniel", "name": "Daniel", "gender": "male", "grade": "D", "traits": ""},
+          {"id": "bm_fable", "name": "Fable", "gender": "male", "grade": "C", "traits": ""},
+          {"id": "bm_george", "name": "George", "gender": "male", "grade": "C", "traits": ""},
+          {"id": "bm_lewis", "name": "Lewis", "gender": "male", "grade": "D+", "traits": ""}
+        ]
+      },
+      {
+        "code": "j",
+        "name": "Japanese",
+        "flag": "🇯🇵",
+        "voices": [
+          {"id": "jf_alpha", "name": "Alpha", "gender": "female", "grade": "C+", "traits": ""},
+          {"id": "jf_gongitsune", "name": "Gongitsune", "gender": "female", "grade": "C", "traits": ""},
+          {"id": "jf_nezumi", "name": "Nezumi", "gender": "female", "grade": "C-", "traits": ""},
+          {"id": "jf_tebukuro", "name": "Tebukuro", "gender": "female", "grade": "C", "traits": ""},
+          {"id": "jm_kumo", "name": "Kumo", "gender": "male", "grade": "C-", "traits": ""}
+        ]
+      },
+      {
+        "code": "z",
+        "name": "Mandarin Chinese",
+        "flag": "🇨🇳",
+        "voices": [
+          {"id": "zf_xiaobei", "name": "Xiaobei", "gender": "female", "grade": "D", "traits": ""},
+          {"id": "zf_xiaoni", "name": "Xiaoni", "gender": "female", "grade": "D", "traits": ""},
+          {"id": "zf_xiaoxiao", "name": "Xiaoxiao", "gender": "female", "grade": "D", "traits": ""},
+          {"id": "zf_xiaoyi", "name": "Xiaoyi", "gender": "female", "grade": "D", "traits": ""},
+          {"id": "zm_yunjian", "name": "Yunjian", "gender": "male", "grade": "D", "traits": ""},
+          {"id": "zm_yunxi", "name": "Yunxi", "gender": "male", "grade": "D", "traits": ""},
+          {"id": "zm_yunxia", "name": "Yunxia", "gender": "male", "grade": "D", "traits": ""},
+          {"id": "zm_yunyang", "name": "Yunyang", "gender": "male", "grade": "D", "traits": ""}
+        ]
+      },
+      {
+        "code": "e",
+        "name": "Spanish",
+        "flag": "🇪🇸",
+        "voices": [
+          {"id": "ef_dora", "name": "Dora", "gender": "female", "grade": "C", "traits": ""},
+          {"id": "em_alex", "name": "Alex", "gender": "male", "grade": "C", "traits": ""},
+          {"id": "em_santa", "name": "Santa", "gender": "male", "grade": "C", "traits": ""}
+        ]
+      },
+      {
+        "code": "f",
+        "name": "French",
+        "flag": "🇫🇷",
+        "voices": [
+          {"id": "ff_siwis", "name": "Siwis", "gender": "female", "grade": "B-", "traits": ""}
+        ]
+      },
+      {
+        "code": "h",
+        "name": "Hindi",
+        "flag": "🇮🇳",
+        "voices": [
+          {"id": "hf_alpha", "name": "Alpha", "gender": "female", "grade": "C", "traits": ""},
+          {"id": "hf_beta", "name": "Beta", "gender": "female", "grade": "C", "traits": ""},
+          {"id": "hm_omega", "name": "Omega", "gender": "male", "grade": "C", "traits": ""},
+          {"id": "hm_psi", "name": "Psi", "gender": "male", "grade": "C", "traits": ""}
+        ]
+      },
+      {
+        "code": "i",
+        "name": "Italian",
+        "flag": "🇮🇹",
+        "voices": [
+          {"id": "if_sara", "name": "Sara", "gender": "female", "grade": "C", "traits": ""},
+          {"id": "im_nicola", "name": "Nicola", "gender": "male", "grade": "C", "traits": ""}
+        ]
+      },
+      {
+        "code": "p",
+        "name": "Brazilian Portuguese",
+        "flag": "🇧🇷",
+        "voices": [
+          {"id": "pf_dora", "name": "Dora", "gender": "female", "grade": "C", "traits": ""},
+          {"id": "pm_alex", "name": "Alex", "gender": "male", "grade": "C", "traits": ""},
+          {"id": "pm_santa", "name": "Santa", "gender": "male", "grade": "C", "traits": ""}
+        ]
+      }
+    ]
+  }

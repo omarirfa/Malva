@@ -1,0 +1,80 @@
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+line-length = 88
+indent-width = 4
+target-version = "py38"
+
+[lint]
+# Comprehensive selection of rules for data science / web apps
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "B",   # bugbear (subtle bugs)
+    "I",   # isort (import sorting)
+    "C4",  # complexity
+    "N",   # naming conventions
+    "UP",  # pyupgrade replacement
+    "PL",  # pylint (includes print statement checks)
+    "RUF", # Ruff-specific rules
+    "D",   # Docstrings
+    "SIM", # simplifications
+    "NPY", # NumPy-specific rules
+    "PT",  # pytest-style
+    "PD",  # pandas-specific rules
+]
+
+# Practical exceptions for Flask/Dash apps
+ignore = [
+    "E501",    # Line too long (handled by formatter)
+    "B008",    # Do not perform function call in argument defaults (common in Flask)
+    "D203",    # One blank line before class docstring
+    "D212",    # Multi-line docstring summary should start at the first line
+    "PD901",   # Allow df as a variable name in pandas
+    "PD010",   # Allow assignment to sliced dataframe
+    "PLR0913", # Too many arguments (common in dash apps)
+    "PLR0912", # Too many branches (common in data transforms)
+    "PLR0915", # Too many statements (common in data transforms)
+    "PLW0603", # Allow global statement (sometimes needed in Dash callbacks)
+]
+
+fixable = ["ALL"]
+unfixable = []
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[lint.pydocstyle]
+convention = "google"
+
+[format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+docstring-code-format = true
+docstring-code-line-length = "dynamic"
