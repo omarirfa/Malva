@@ -62,7 +62,7 @@ The core of Malva is its unified processing pipeline:
 
 ```bash
 # Clone and install
-git clone https://github.com/yourusername/malva.git
+git clone https://github.com/omarirfa/malva.git
 cd malva
 uv pip install -r requirements.txt
 # or if on windows just run setup.bat
